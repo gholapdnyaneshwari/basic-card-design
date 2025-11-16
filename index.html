@@ -9,7 +9,6 @@
             justify-content: space-evenly;
 
         }
-
         .card {
             height: 400px;
             width: 300px;
@@ -62,6 +61,8 @@
             margin-right: 10px;
             font-size: 12px;
             border: 1px solid rgb(78, 172, 193);
+            display: flex;
+            align-items: center;
         }
 
         .tech2 {
@@ -71,6 +72,8 @@
             margin-right: 10px;
             font-size: 12px;
             border: 1px solid black;
+            display: flex;
+            align-items: center;
         }
 
         .tech3 {
@@ -80,19 +83,38 @@
             margin-right: 10px;
             font-size: 12px;
             border: 1px solid green;
+            display: flex;
+            align-items: center;
         }
+
         .project-duration {
             display: flex;
             justify-content: space-between;
             margin-top: 10px;
         }
-        .project-duration-info{
+
+        .project-duration-info {
             font-size: 12px;
         }
+
         .user-profile-img {
             border-radius: 50%;
+            margin-right: 5px;
+        }
+
+        .project-discription-info {
+            display: flex;
+            align-items: center;
+        }
+        .calendar-img{
+            margin-right: 5px;
+        }
+        .hr-line{
+            margin: 10px 0px;
+            border:solid rgb(182, 181, 181);
         }
     </style>
+
 </head>
 
 <body>
@@ -103,28 +125,29 @@
                 <span class="font">InfoTechShop</span>
                 <br>
                 <span class="cource">Internship Cohort Program 6.0</span>
-                <p class="project-discription">
-                    This project serves as the foundation for an e-commerce website specializing in the sale of
-                    electronic gadgets. With a...
-                </p>
+                <p class="project-discription">This project serves as the foundation for an e-commerce website
+                    specializing in the sale of electronic gadgets. With a... </p>
                 <div class="text-tag">
-                    <span class="tech1"> <img src="./images/react.svg" height="15px">React </span>
-                    <span class="tech2"> <img src="./images/express.svg" height="15px">Express.js</span>
-                    <span class="tech3"> <img src="./images/nodejs.svg" height="15px">Node.js</spana>
+                    <span class="tech1">
+                        <img src="./images/react.svg" height="15px">React </span>
+                    <span class="tech2">
+                        <img src="./images/express.svg" height="15px">Express.js</span>
+                    <span class="tech3">
+                        <img src="./images/nodejs.svg" height="15px">Node.js</spana>
                 </div>
                 <div class="project-duration">
-                    <div>
-                        <img src="./images/calendar.svg" height="15px">
+                    <div class="project-discription-info">
+                        <img src="./images/calendar.svg" height="15px" class="calendar-img">
                         <span class="project-duration-info">Apr 2024 - Apr 2024</span>
                     </div>
-                    <div>
+                    <div class="project-discription-info">
                         <img src="./images/albert.jpeg" height="20px" class="user-profile-img">
                         <span class="project-duration-info">Albert Einstein</span>
                     </div>
                 </div>
+                <hr class="hr-line">
             </div>
         </div>
-
 </body>
 
 </html>
