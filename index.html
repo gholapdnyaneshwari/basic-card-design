@@ -1,50 +1,60 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Card Design</title>
     <style>
-         .container {
+        .container {
             display: flex;
             justify-content: space-evenly;
 
         }
-        .card{
+
+        .card {
             height: 400px;
             width: 300px;
             margin: 10px;
             border: 1px solid rgb(222, 220, 220);
             border-radius: 10px;
         }
-        .card:hover{
+
+        .card:hover {
             border: 2px solid rgb(167, 167, 167);
         }
+
         .img-main {
             border-radius: 10px 10px 0px 0px;
             margin-bottom: 15px;
         }
-         .font {
+
+        .font {
             font-size: 23px;
             font-weight: 600px;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
         }
-         .space {
+
+        .space {
             padding-left: 10px;
             padding-right: 5px;
         }
+
         .cource {
             background-color: rgb(167, 222, 245);
             padding: 2px;
             border-radius: 4px;
         }
+
         .project-discription {
             font-size: 12px;
             color: rgb(25, 25, 26);
 
         }
+
         .text-tag {
             display: flex;
             margin: 2px;
         }
+
         .tech1 {
             background-color: rgb(226, 249, 249);
             padding: 4px 10px;
@@ -53,29 +63,31 @@
             font-size: 12px;
             border: 1px solid rgb(78, 172, 193);
         }
-         .tech2 {
-            background-color:rgb(228, 226, 226);
+
+        .tech2 {
+            background-color: rgb(228, 226, 226);
             padding: 4px 10px;
             border-radius: 20px;
             margin-right: 10px;
             font-size: 12px;
             border: 1px solid black;
         }
+
         .tech3 {
-            background-color:rgb(214, 241, 214);
+            background-color: rgb(214, 241, 214);
             padding: 4px 10px;
             border-radius: 20px;
             margin-right: 10px;
             font-size: 12px;
             border: 1px solid green;
         }
-
     </style>
 </head>
+
 <body>
     <div>
         <div class="card">
-            <img src="./images/first.png" width="300px" class="img-main" >
+            <img src="./images/first.png" width="300px" class="img-main">
             <div class="space">
                 <span class="font">InfoTechShop</span>
                 <br>
@@ -89,9 +101,15 @@
                     <span class="tech2"> <img src="./images/express.svg" height="15px">Express.js</span>
                     <span class="tech3"> <img src="./images/nodejs.svg" height="15px">Node.js</spana>
                 </div>
+                <div class="project-duration">
+                    <div>
+                        <img src="./images/calendar.svg" height="15px">
+                        <span class="project-duration-info">Apr 2024 - Apr 2024</span>
+                    </div>
+                </div>
             </div>
-        </div>  
-    </div>
-    
+        </div>
+
 </body>
+
 </html>
